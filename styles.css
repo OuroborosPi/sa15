@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f3f5; /* Light grey-blue background for a neutral, soft look */
+}
+
+header {
+    background: #005a9c; /* Deep blue background for the header */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+footer {
+    background: #ff7e67; /* Warm coral color for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-weight: bold;
+}
+
+#quiz-section {
+    background: #ffffff; /* Pure white background for the quiz section */
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2, h3 {
+    color: #333333; /* Dark gray color for text for better readability */
+    text-align: center; /* Center-align the text */
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #005a9c;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #ff7e67;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    #quiz-section {
+        margin: 20px;
+    }
+    button {
+        font-size: 1rem;
+    }
+}
